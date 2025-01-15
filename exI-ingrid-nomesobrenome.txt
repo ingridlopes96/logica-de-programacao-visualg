@@ -1,0 +1,19 @@
+algoritmo "EX I"
+
+//Crie um programa que receba nome e sobrenome em dois campos. 
+Depois exiba seu nome completo. 
+
+var
+         nome1, nome2 : caracter
+inicio
+// Seção de Comandos
+
+Escreva ("Digite o primeiro nome: ")
+Leia(nome1)
+
+Escreva ("Digite o segundo nomr: ")
+Leia (nome2)
+
+Escreva ("O nome completo é: ", nome1," ",nome2 )
+
+fimalgoritmo

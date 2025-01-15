@@ -1,0 +1,19 @@
+algoritmo "EX II"
+
+//Receba um valor e mostre seu 
+antecessor e seu sucessor.
+
+var
+          num1, antecessor, sucessor: inteiro
+inicio
+// Seção de Comandos
+
+Escreva ("Digite um número: ")
+Leia(num1)
+
+antecessor <- num1 - 1
+sucessor <- num1 + 1
+
+Escreva ("O sucessor de",num1," é",sucessor)
+Escreva (" e o antecessor é",antecessor)
+fimalgoritmo

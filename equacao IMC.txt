@@ -1,0 +1,10 @@
+inicio
+Digite o peso em kg
+Digite a altura em metros
+Clicar em calcular
+Calcule a seguinte equação IMC = Peso(KG)/Altura(M)²
+Exiba o resultado
+fim
+
+
+

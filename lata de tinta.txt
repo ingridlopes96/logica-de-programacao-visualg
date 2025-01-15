@@ -1,0 +1,16 @@
+algoritmo "parede"
+
+var
+      altura, largura, area, lata: real
+inicio
+      Escreva "Altura em metros: "
+      leia (altura)
+      Escreva "Largura em metros: "
+      leia (largura)
+      area <- altura*largura
+      lata <- 5
+      Escreva ("A área da parede é: ",area,"m²")
+      Escreva "E você vai precisar de: ",area/lata," latas para uma demão"
+      
+      
+fimalgoritmo

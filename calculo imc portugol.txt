@@ -1,0 +1,15 @@
+
+inicio
+
+peso, altura, imc: numerico
+
+escreva "digite peso em kg"
+leia peso
+escreva "digite altura em cm"
+leia altura
+
+imc <- peso/altura^2 
+
+imprima "Seu IMC é: " + imc
+
+fim

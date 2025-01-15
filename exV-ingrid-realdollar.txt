@@ -1,0 +1,21 @@
+algoritmo "EX III"
+
+//Crie um conversor de moeda de reais para dólares.
+
+var
+	  reais, conversao, dollar : real
+inicio
+
+Escreva ("Digite o valor em reais: ")
+Leia (reais)
+
+Escreva ("Digite o valor atual do dollar: ")
+Leia (dollar)
+
+conversao <- dollar*reais
+
+//dollar em 0,16
+
+Escreva (reais," reais em dollar é: ", conversao)
+
+fimalgoritmo
