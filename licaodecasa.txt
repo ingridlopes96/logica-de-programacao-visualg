@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "LIÇÃO DE CASA"
 //Crie um algoritmo que receba 4 notas
 //O programa deve retornar a média das notas
 //E retornar se o aluno foi aprovado ou reprovado!

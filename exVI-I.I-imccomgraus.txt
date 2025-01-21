@@ -1,0 +1,39 @@
+algoritmo "exV.I.I"
+
+//Calcule o IMC e devolva o
+//resultado e a categoria da pessoa.
+
+var
+
+    imc, peso, altura : real
+   
+inicio
+
+      escreval ("Digite sua altura: ")
+      leia (altura)
+      escreval ("Digite seu peso: ")
+      leia (peso)
+      
+      imc <- peso/(altura*altura)
+      
+      se (imc <18,5) entao
+         escreval("ABAIXO DO PESO")
+      fimse
+      se (imc >=18,5) e (imc <24,9) entao
+         escreval("PESO NORMAL")
+      fimse
+      se (imc >=25) e (imc < 29,9) entao
+         escreval ("SOBREPESO")
+      fimse
+      se (imc >=30) e (imc <34,9) entao
+         escreval ("OBESIDADE GRAU I")
+      fimse
+      se (imc >=35) e (imc <39,9) entao
+         escreval ("OBESIDADE GRAU II")
+      fimse
+      se (imc >=40) entao
+         escreval ("OBESIDADE GRAU III OU MÓRBIDA")
+      fimse
+      
+      
+fimalgoritmo

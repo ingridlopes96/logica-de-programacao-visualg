@@ -1,0 +1,27 @@
+algoritmo "exI.I.I"
+
+//Crie um programa que verifique um login e senha
+
+var
+
+   login, senha, vlogin, vsenha : caracter
+   
+inicio
+
+    escreval ("Crie um login: ")
+    leia (login)
+    escreval ("Crie uma senha: ")
+    leia (senha)
+    
+    escreval("DIGITE SEU LOGIN: ")
+    leia (vlogin)
+    escreval ("DIGITE SUA SENHA: ")
+    leia (vsenha)
+    
+    se (login = vlogin ) e (senha = vsenha) entao
+       escreval("LOGADO COM SUCESSO! SEJA BEM VINDO!")
+    senao
+       escreval ("ERRO DE LOGIN! TENTE NOVAMENTE!")
+    fimse
+      
+fimalgoritmo

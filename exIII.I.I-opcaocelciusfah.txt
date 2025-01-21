@@ -1,0 +1,27 @@
+algoritmo "exIII.I.I"
+//Dê a opção de escolher Conversor de temperatura:
+//Cº -> Fº
+//Fº -> Cº
+
+var
+
+   opcao, temperatura, celcius, fahrenheit : real
+   
+inicio
+
+   escreval ("..:::: ESCOLHA A CONVERSÃO DE TEMPERATURA Fº ou Cº :::..")
+   escreva ("Digite a temperatura: ")
+   leia (temperatura)
+   escreval ("DIGITE 1 PARA CELCIUS E 2 PARA FAHRENHEIT: ")
+   leia (opcao)
+
+   
+   se (opcao = 1) entao
+      celcius <- (temperatura-32)*5/9
+      escreval("A temperatura digitada em celcius fica: ",celcius,"ºC")
+   senao
+      fahrenheit <- (temperatura*9/5)+32
+      escreval("A temperatura digitada em fahrenheit fica: ",fahrenheit,"ºF")
+   fimse
+      
+fimalgoritmo

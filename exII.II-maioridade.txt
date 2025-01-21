@@ -1,0 +1,33 @@
+algoritmo "exII.I.I"
+
+//Verifique se a pessoa é maior ou menor
+//de idade e mostre as categorias de trabalho.
+
+var
+
+   idade: inteiro
+   
+inicio
+
+    escreva ("DIGITE SUA IDADE: ")
+    leia (idade)
+    
+    se (idade >=18)e (idade < 65) entao
+    escreval("ESTÁ APTO PARA SER CLT/CNPJ!")
+    fimse
+    
+   se (idade >=14) e (idade < 18) entao
+   escreval("ESTÁ APTO PARA UM CARGO DE JOVEM APRENDIZ/CLT")
+   fimse
+
+   se (idade <14) entao
+   escreval ("NÃO ESTÁ APTO PARA TRABALHAR")
+   fimse
+   
+   se (idade >= 65) entao
+   escreval ("ESTÁ APTO PARA DE APOSENTAR!")
+
+   fimse
+
+      
+fimalgoritmo
