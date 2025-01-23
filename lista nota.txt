@@ -1,0 +1,19 @@
+algoritmo "lista de nomes"
+
+var
+   nota, vnotas: caracter
+   contador: inteiro
+inicio
+
+escreval ("..:::: NOTAS ::::..")
+
+enquanto (contador < 3) faca
+         Escreval ("Digite a nota: ")
+         leia (nota)
+         
+         vnotas <-  vnotas + "," + nota
+         contador <- contador + 1
+fimenquanto
+         escreval ("As notas são: ")
+         escreval (vnotas)
+fimalgoritmo
