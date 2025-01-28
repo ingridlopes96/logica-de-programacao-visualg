@@ -10,12 +10,15 @@ inicio
       escreval (" ")
       leia (multiplicador)
 
-
+      //num recebe o numero digitado - valor fixo
       num <- multiplicador
-               
+      
       enquanto (i < 10) faca
+               //i - indice incrementa + 1 a cada loop
                i <- i+1
+               //multiplicador passa a receber o num (valor fixo * o indice) e faz o calculo
                multiplicador <- num * i
+               //Valor fixo + x + indice incrementado + = + multiplicador (texto)
                escreval (num , " X " , i , " = ", multiplicador)
       fimenquanto
 
